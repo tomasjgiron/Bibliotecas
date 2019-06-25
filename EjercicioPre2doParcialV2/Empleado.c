@@ -256,3 +256,27 @@ int employee_sortByName(void* pFirstEmpleado,void* pSecondEmpleado)
     }
     return retorno;
 }
+
+int employee_reduceBySueldo(void* pEmpleado)
+{
+    int returnAux = 0;
+    Empleado* auxEmpleado = pEmpleado;
+
+    if(auxEmpleado->sueldo > 50000)
+    {
+        returnAux = 1;
+    }
+    return returnAux;
+}
+
+int employee_filterBySueldo(void* pEmpleado)
+{
+    int returnAux = -1;
+    Empleado* auxEmpleado = pEmpleado;
+
+    if(auxEmpleado->sueldo < 15000)
+    {
+        returnAux = 0;
+    }
+    return returnAux;
+}

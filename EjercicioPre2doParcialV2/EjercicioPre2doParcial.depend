@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1561433291 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\empleado.c
+1561444967 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\empleado.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
 	"arraynuevo.h"
 	"Empleado.h"
 
-1561433113 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\empleado.h
+1561443212 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\empleado.h
 
 1561325800 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\linkedlist.c
 	<stdio.h>
@@ -25,7 +25,7 @@
 
 1560989123 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\linkedlist.h
 
-1561433795 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\main.c
+1561445103 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Empleado.h"

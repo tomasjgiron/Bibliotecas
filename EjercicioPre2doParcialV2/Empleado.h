@@ -31,4 +31,7 @@ int employee_getSueldo(Empleado* this,int* value);
 
 int employee_sortByName(void* pFirstEmployee,void* pSecondEmployee);
 
+int employee_reduceBySueldo(void* pEmpleado);
+int employee_filterBySueldo(void* pEmpleado);
+
 #endif // EMPLEADO_H_INCLUDED

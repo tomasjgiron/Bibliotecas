@@ -28,6 +28,7 @@ int main()
 {
     // Definir lista de empleados
     LinkedList* listaEmpleados = ll_newLinkedList();
+    LinkedList* listaFiltrada = ll_newLinkedList();
 
     // Leer empleados de archivo data.csv
     if(parser_parseEmpleados("data.csv",listaEmpleados) == 1)
@@ -35,6 +36,18 @@ int main()
         // Calcular sueldos
         printf("Calculando sueldos de empleados\n");
         ll_map(listaEmpleados,em_calcularSueldo);
+        printf("Crea una lista nueva con todos los que ganen menos de 20000\n");
+        listaFiltrada = ll_filter(listaEmpleados,employee_filterBySueldo);
+
+        // Generar archivo de salida
+        if(generarArchivoSueldos("filter.csv",listaFiltrada) == 1)
+        {
+            printf("Archivo filtrado generado correctamente\n");
+        }
+        else
+            printf("Error generando archivo filtrado\n");
+        printf("Saco a todos los empleados que no paguen impuesto a las ganancias\n");
+        ll_reduce(listaEmpleados,employee_reduceBySueldo);
 
         // Generar archivo de salida
         if(generarArchivoSueldos("sueldos.csv",listaEmpleados) == 1)
@@ -42,7 +55,10 @@ int main()
             printf("Archivo generado correctamente\n");
         }
         else
+        {
             printf("Error generando archivo\n");
+        }
+
     }
     else
         printf("Error leyando empleados\n");
