@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1561433291 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\empleado.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"arraynuevo.h"
+	"Empleado.h"
+
+1561433113 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\empleado.h
+
+1561325800 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/LinkedList.h"
+
+1560989123 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\inc\linkedlist.h
+
+1561333160 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\parser.c
+	"LinkedList.h"
+	"Empleado.h"
+	<stdio.h>
+	<stdlib.h>
+	"arraynuevo.h"
+
+1560989123 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\linkedlist.h
+
+1561433795 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1560990558 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\parser.h
+	"LinkedList.h"
+
+1560456546 source:c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\arraynuevo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+
+1560456546 c:\users\tomas\desktop\bibliotecas-master\linkedlist_cascara_v6\ejerciciopre2doparcialv2\arraynuevo.h
+
