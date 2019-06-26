@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1558571599 source:c:\users\tomas\desktop\primerfinal\arraynuevo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+
+1558571599 c:\users\tomas\desktop\primerfinal\arraynuevo.h
+
+1561527551 source:c:\users\tomas\desktop\primerfinal\sale.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"sale.h"
+
+1561527111 c:\users\tomas\desktop\primerfinal\sale.h
+	"client.h"
+	"arraynuevo.h"
+
+1561526165 c:\users\tomas\desktop\primerfinal\client.h
+	"arraynuevo.h"
+
+1561530753 source:c:\users\tomas\desktop\primerfinal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"client.h"
+	"sale.h"
+
+1561525529 source:c:\users\tomas\desktop\primerfinal\client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"sale.h"
+	"client.h"
+
+1561523841 source:c:\users\tomas\desktop\primerfinal\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561524024 c:\users\tomas\desktop\primerfinal\linkedlist.h
+
+1561525428 source:c:\users\tomas\desktop\primerfinal\parser.c
+	"LinkedList.h"
+	"client.h"
+	"sale.h"
+	<stdio.h>
+	<stdlib.h>
+	"arraynuevo.h"
+
+1561533264 source:c:\users\tomas\desktop\primerfinal\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"client.h"
+	"sale.h"
+	"Controller.h"
+	"parser.h"
+	"arraynuevo.h"
+
+1561531848 c:\users\tomas\desktop\primerfinal\controller.h
+
+1561533536 c:\users\tomas\desktop\primerfinal\parser.h
+	"LinkedList.h"
+
