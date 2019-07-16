@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1562711494 source:c:\users\tomas\downloads\recuperatorio_parcial\arraynuevo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+
+1562711569 c:\users\tomas\downloads\recuperatorio_parcial\arraynuevo.h
+
+1562888070 source:c:\users\tomas\downloads\recuperatorio_parcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"llamado.h"
+	"Controller.h"
+	"parser.h"
+	"arraynuevo.h"
+
+1561620685 c:\users\tomas\downloads\recuperatorio_parcial\linkedlist.h
+
+1562886578 c:\users\tomas\downloads\recuperatorio_parcial\llamado.h
+
+1562886553 c:\users\tomas\downloads\recuperatorio_parcial\controller.h
+	"LinkedList.h"
+
+1562883394 c:\users\tomas\downloads\recuperatorio_parcial\parser.h
+
+1562886689 source:c:\users\tomas\downloads\recuperatorio_parcial\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"informes.h"
+	"controller.h"
+	"llamado.h"
+	"parser.h"
+
+1562884060 c:\users\tomas\downloads\recuperatorio_parcial\informes.h
+	"LinkedList.h"
+
+1562891586 source:c:\users\tomas\downloads\recuperatorio_parcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1562891576 source:c:\users\tomas\downloads\recuperatorio_parcial\llamado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"llamado.h"
+
+1562887516 source:c:\users\tomas\downloads\recuperatorio_parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"informes.h"
+	"controller.h"
+	"llamado.h"
+	"parser.h"
+	"LinkedList.h"
+
+1562887966 source:c:\users\tomas\downloads\recuperatorio_parcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"llamado.h"
+	"arraynuevo.h"
+
